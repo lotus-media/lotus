@@ -43,15 +43,37 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body */
+:root {
+  --vp-c-bg: #030712;
+}
+
+.body {
+  min-height: 100vh;
+}
+
+:root {
+  --vp-c-rose-600: #E11D48;
+  --vp-c-rose-700: #BE123C;
+  --vp-c-rose-800: #9F1239;
+}
+
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-button-brand-bg: var(--vp-c-rose-600) !important;
+  --vp-button-brand-hover-bg: var(--vp-c-rose-700) !important;
+
+  --vp-c-brand-1: var(--vp-c-rose-600);
+  --vp-c-brand-2: var(--vp-c-rose-700);
+  --vp-c-brand-3: var(--vp-c-rose-800);
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
@@ -69,6 +91,14 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 }
+
+/*
+  * Component: Breadcrumb
+  * -------------------------------------------------------------------------- */
+.breadcrumb a {
+  text-decoration: none;
+}
+
 
 /**
  * Component: Button
@@ -89,19 +119,22 @@
 /**
  * Component: Home
  * -------------------------------------------------------------------------- */
+.VPHero .container .main .text {
+  margin-top: 1rem;
+}
 
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    #E11D48 30%,
+    #BE123C
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    #E11D48 50%,
+    #9F1239 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -130,10 +163,23 @@
 }
 
 /**
+ * Component: VPDoc
+ * -------------------------------------------------------------------------- */
+.VPDoc img {
+  border-radius: 10px;
+}
+
+/**
  * Component: Algolia
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+.DocSearch.DocSearch-Button {
+  &:hover {
+    border: 1px solid var(--vp-c-brand-3);
+  }
 }
 

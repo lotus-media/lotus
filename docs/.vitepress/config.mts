@@ -4,37 +4,40 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // https://vitepress.dev/reference/default-theme-config
   lang: 'pt-BR',
-  base: "/url-base/",
+  base: "/",
   title: "Blog - Lotus Media",
   description: "Blog da empresa Lotus Media",
-  // head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/images/logo.svg' }]],
   themeConfig: {
-    siteTitle: "",
+    siteTitle: "Blog",
     // :title is replaced with the page title
     titleTemplate: ":title - ...",
 
-    // logo: "favicon.ico",
+    logo: "/images/logo.svg",
 
     // The title for establishing the outline of the page
-    // outlineTitle: 'Nesta página',
+    outlineTitle: 'Nesta página',
 
     nav: [
-      // { text: 'Home', link: '/' },
+      { text: 'Cultura Tech', link: '/' },
+      { text: 'Dicas', link: '/' },
+      { text: 'Tutoriais', link: '/' },
     ],
 
     sidebar: [
       {
         text: 'Navegue',
         items: [
-          // { text: 'About', link: '/about' },
-          // { text: 'Contact', link: '/contact' },
-          // { text: 'Home', link: '/home' },
+          { text: 'Cultura Tech', link: '/' },
+          { text: 'Dicas', link: '/' },
+          { text: 'Segurança', link: '/posts/security/' },
+          { text: 'Tutoriais', link: '/' },
         ]
       },
       {
         text: 'Desenvolvimento',
         items: [
-          { text: 'Dev. no GitHub', link: 'https://github.com/lotus-media' },
+          { text: 'GitHub', link: 'https://github.com/lotus-media' },
           { text: 'Repositório', link: 'https://github.com/lotus-media/blog' },
         ]
       }
@@ -46,7 +49,7 @@ export default defineConfig({
 
     footer: {
       message: 'Feito com ❤️ usando <a href="https://vitepress.dev" target="_blank" rel="noreferrer noopener">VitePress</a>',
-      copyright: 'Copyright &copy; 20XX'
+      copyright: `Copyright &copy; ${new Date().getFullYear()}`
     },
 
     // Enable the edit link
@@ -63,6 +66,13 @@ export default defineConfig({
         timeStyle: 'short'
       }
     },
+
+    search: {
+      provider: 'local'
+    },
+  },
+  markdown: {
+    lazyLoading: true,
   }
 })
 

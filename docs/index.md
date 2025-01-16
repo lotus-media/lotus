@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Blog - Lotus Media"
-  text: "Blog da empresa Lotus Media"
-  tagline: My great project tagline
+  name: "Lotus Media"
+  text: "Decodificando tendências"
+  tagline: ""
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Tendências e Inovações
+      link: /xxx
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Casos de Sucesso
+      link: /xxx
 
 features:
   - title: Feature A
