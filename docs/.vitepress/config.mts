@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // https://vitepress.dev/reference/default-theme-config
   lang: 'pt-BR',
-  base: "/",
+  base: "/blog/",
   title: "Blog - Lotus Media",
   description: "Blog da empresa Lotus Media",
   head: [['link', { rel: 'icon', href: '/images/logo.svg' }]],
