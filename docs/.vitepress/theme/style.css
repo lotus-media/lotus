@@ -48,7 +48,7 @@ html {
 }
 
 /* Body */
-:root {
+html.dark {
   --vp-c-bg: #030712;
 }
 
