@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/blog/",
   title: "Blog - Lotus Media",
   description: "Blog da empresa Lotus Media",
-  head: [['link', { rel: 'icon', href: '/images/logo.svg' }]],
+  head: [['link', { rel: 'icon', href: './images/logo.svg' }]],
   themeConfig: {
     siteTitle: "Blog",
     // :title is replaced with the page title
@@ -19,19 +19,19 @@ export default defineConfig({
     outlineTitle: 'Nesta página',
 
     nav: [
-      { text: 'Cultura Tech', link: '/' },
-      { text: 'Dicas', link: '/' },
-      { text: 'Tutoriais', link: '/' },
+      { text: 'Cultura Tech', link: '/posts/culture/' },
+      { text: 'Dicas', link: '/posts/tips/' },
+      { text: 'Tutoriais', link: '/posts/tutorials/' },
     ],
 
     sidebar: [
       {
         text: 'Navegue',
         items: [
-          { text: 'Cultura Tech', link: '/' },
-          { text: 'Dicas', link: '/' },
+          { text: 'Cultura Tech', link: '/posts/culture/' },
+          { text: 'Dicas', link: '/posts/tips/' },
           { text: 'Segurança', link: '/posts/security/' },
-          { text: 'Tutoriais', link: '/' },
+          { text: 'Tutoriais', link: '/posts/tutorials/' },
         ]
       },
       {

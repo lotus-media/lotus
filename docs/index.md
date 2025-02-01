@@ -9,17 +9,20 @@ hero:
   actions:
     - theme: brand
       text: Tendências e Inovações
-      link: /xxx
+      link: /posts/culture
     - theme: alt
       text: Casos de Sucesso
-      link: /xxx
+      link: /posts/portfolio
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - link: /posts/security/security-fail-cases.html
+    title: "📰 A Importância da Segurança em Sistemas: Lições de Casos Reais"
+    details: Neste post, exploraremos a importância da segurança em sistemas, destacando casos famosos de ataques cibernéticos e os impactos devastadores que eles causaram.
+  - link: /posts/culture/ 
+    title: Cultura Tech 👨‍💻
+    details: Categoria de posts com tendências e inovações do setor tecnológico, com ênfase em desenvolvimento.
+  - link: /posts/tutorials/
+    title: Tutoriais 👩‍🏫
+    details: Como fazer aquela animação para chamar a atenção de qualquer um? Quais boas práticas devem ser usadas no desenvolvimento? Nessa categoria você encontra isso e muito mais. 
 ---
 
