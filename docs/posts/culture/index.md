@@ -3,3 +3,7 @@
 # Cultura Tech
 
 Categoria de posts com tendências e inovações do setor tecnológico, com ênfase em desenvolvimento.
+
+## [Therac-25: o bug que matou – e o que ele ainda ensina aos desenvolvedores](./therac-25)
+
+Nos anos 80, um erro de software custou vidas em uma máquina de radioterapia. Neste post, revisitamos o caso do Therac-25 e destacamos as lições atemporais sobre responsabilidade, testes e desenvolvimento seguro.

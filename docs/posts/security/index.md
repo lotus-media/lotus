@@ -7,6 +7,6 @@ as consequências podem ser catastróficas, afetando não apenas empresas, mas t
 post, exploraremos a importância da segurança em sistemas, destacando casos famosos de ataques cibernéticos e os
 impactos devastadores que eles causaram.
 
-## [A Importância da Segurança em Sistemas: Lições de Casos Reais](security-fail-cases.html)
+## [A Importância da Segurança em Sistemas: Lições de Casos Reais](./security-fail-cases)
 
 A segurança digital não é apenas um diferencial, mas uma necessidade vital para sistemas modernos. Quando negligenciada, as consequências podem ser catastróficas, afetando não apenas empresas, mas também governos e milhões de pessoas. Neste post, exploraremos a importância da segurança em sistemas, destacando casos famosos de ataques cibernéticos e os impactos devastadores que eles causaram.
