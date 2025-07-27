@@ -19,6 +19,7 @@ export default defineConfig({
     outlineTitle: 'Nesta página',
 
     nav: [
+      { text: 'Site', link: 'https://lts.app.br' },
       { text: 'Cultura Tech', link: '/posts/culture/' },
       { text: 'Dicas', link: '/posts/tips/' },
       { text: 'Tutoriais', link: '/posts/tutorials/' },
@@ -48,7 +49,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Feito com ❤️ usando <a href="https://vitepress.dev" target="_blank" rel="noreferrer noopener">VitePress</a>',
+      message: 'Feito com ❤️ usando <a href="https://vitepress.dev" target="_blank" rel="noreferrer noopener">VitePress</a><br>Confira o <a href="https://lts.app.br/" target="_blank" rel="noreferrer noopener">nosso site</a>',
       copyright: `Copyright &copy; ${new Date().getFullYear()}`
     },
 
