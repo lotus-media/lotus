@@ -24,6 +24,9 @@ features:
   - link: /posts/culture/therac-25.html
     title: "📰 Therac-25 e a responsabilidade de um código crítico"
     details: Aqui, falaremos sobre a falha na máquina de radiologia Therac-25, que, na década de 80 acabou culminando na morte de 6 pessoas.
+  - link: /posts/tutorials/scroll-driven-animations.html
+    title: "📱 Dando Vida à sua Rolagem: Uma Introdução às Animações CSS Scroll-Driven"
+    details: Mergulharmos de forma didática em como você pode começar a usar essa nova e empolgante funcionalidade do CSS para adicionar interatividade e um toque especial aos seus projetos.
   - link: /posts/tutorials/
     title: Tutoriais 👩‍🏫
     details: Como fazer aquela animação para chamar a atenção de qualquer um? Quais boas práticas devem ser usadas no desenvolvimento? Nessa categoria você encontra isso e muito mais. 
