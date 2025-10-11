@@ -4,13 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // https://vitepress.dev/reference/default-theme-config
   lang: 'pt-BR',
-  // base: "/blog/",
   base: "/",
-  title: "Blog - Lotus Media",
-  description: "Blog da empresa Lotus Media",
+  title: "Lotus - Lotus Media",
+  description: "SDKs, kits de arquivos e instaladores para a equipe da Lotus Media",
   head: [['link', { rel: 'icon', href: './images/logo.svg' }]],
   themeConfig: {
-    siteTitle: "Blog",
+    siteTitle: "Lotus",
     // :title is replaced with the page title
     titleTemplate: ":title - ...",
 
@@ -21,32 +20,36 @@ export default defineConfig({
 
     nav: [
       { text: 'Site', link: 'https://lts.app.br' },
-      { text: 'Cultura Tech', link: '/posts/culture/' },
-      { text: 'Dicas', link: '/posts/tips/' },
-      { text: 'Tutoriais', link: '/posts/tutorials/' },
+      { text: 'Blog', link: 'https://blog.lts.app.br' },
+      { text: 'SDKs e IDEs', link: '/development-kits' },
+      { text: 'Suporte', link: '/support-kits' },
     ],
 
     sidebar: [
       {
         text: 'Navegue',
         items: [
-          { text: 'Cultura Tech', link: '/posts/culture/' },
-          { text: 'Dicas', link: '/posts/tips/' },
-          { text: 'Segurança', link: '/posts/security/' },
-          { text: 'Tutoriais', link: '/posts/tutorials/' },
+          { text: 'SDK Python', link: '' },
+          { text: 'SDK PHP', link: '' },
+          { text: 'SDK Node', link: '' },
+          { text: 'SDK NextJS', link: '' },
+          { text: 'SDK Vitepress', link: '' },
+          { text: 'Kit de Manutenção', link: '' },
+          { text: 'Kit de Instalação', link: '' },
+          { text: 'Kit de ISOs', link: '' },
         ]
       },
       {
         text: 'Desenvolvimento',
         items: [
           { text: 'GitHub', link: 'https://github.com/lotus-media' },
-          { text: 'Repositório', link: 'https://github.com/lotus-media/blog' },
+          { text: 'Repositório', link: 'https://github.com/lotus-media/lotus' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lotus-media/blog' }
+      { icon: 'github', link: 'https://github.com/lotus-media/lotus' }
     ],
 
     footer: {
@@ -57,7 +60,7 @@ export default defineConfig({
     // Enable the edit link
     // :path is replaced with the relative file path
     editLink: {
-      pattern: 'https://github.com/lotus-media/blog/edit/main/docs/:path'
+      pattern: 'https://github.com/lotus-media/lotus/edit/main/docs/:path'
     },
 
     // Config for the last updated text

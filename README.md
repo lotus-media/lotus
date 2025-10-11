@@ -1,1 +1,1 @@
-# Blog - Lotus Media
+# Lotus - Lotus Media
