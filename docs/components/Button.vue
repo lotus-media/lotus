@@ -33,7 +33,8 @@ export default {
       return this.name || "";
     },
     getURL() {
-      return this.URL;
+      // return this.URL;
+      return "";
     }
   }
 };
