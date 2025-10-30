@@ -4,15 +4,30 @@ layout: home
 
 hero:
   name: "Lotus Media"
-  text: "SDKs, arquivos e instaladores"
-#  tagline: ""
-#  actions:
-#    - theme: brand
-#      text: ...
-#      link: /
-#    - theme: alt
-#      text: ...
-#      link: /
+  text: "SDKs, aplicativos e kits de imagens"
+  tagline: ""
+  actions:     
+    - theme: brand
+      text: Python
+      link: /kits/python
+    - theme: brand
+      text: PHP
+      link: /kits/php
+    - theme: brand
+      text: Node
+      link: /kits/node
+    - theme: brand
+      text: Java
+      link: /kits/java
+    - theme: alt
+      text: Suporte ao desenvolvimento
+      link: /kits/dev-support
+    - theme: alt
+      text: Imagens de Sistemas Operacionais
+      link: /kits/ISOs
+    - theme: alt
+      text: Utilitários
+      link: /kits/util      
 
 features:
   #  - link: ...

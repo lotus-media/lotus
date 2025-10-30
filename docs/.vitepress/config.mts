@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'pt-BR',
   base: "/",
   title: "Lotus - Lotus Media",
-  description: "SDKs, kits de arquivos e instaladores para a equipe da Lotus Media",
+  description: "SDKs, kits de aplicativos e imagens para a equipe da Lotus Media",
   head: [['link', { rel: 'icon', href: './images/favicon.svg' }]],
   themeConfig: {
     siteTitle: "Lotus",
@@ -21,7 +21,7 @@ export default defineConfig({
     nav: [
       { text: 'Site', link: 'https://lts.app.br' },
       { text: 'Blog', link: 'https://blog.lts.app.br' },
-      { text: 'SDKs e IDEs', link: '/development-kits' },
+      { text: 'SDKs e IDEs', link: '/kits' },
       { text: 'Suporte', link: '/support-kits' },
     ],
 
@@ -29,14 +29,13 @@ export default defineConfig({
       {
         text: 'Navegue',
         items: [
-          { text: 'SDK Python', link: '' },
-          { text: 'SDK PHP', link: '' },
-          { text: 'SDK Node', link: '' },
-          { text: 'SDK NextJS', link: '' },
-          { text: 'SDK Vitepress', link: '' },
-          { text: 'Kit de Manutenção', link: '' },
-          { text: 'Kit de Instalação', link: '' },
-          { text: 'Kit de ISOs', link: '' },
+          { text: 'SDK Python', link: '/kits/python' },
+          { text: 'SDK PHP', link: '/kits/php' },
+          { text: 'SDK Node', link: '/kits/node' },
+          { text: 'SDK Java', link: '/kits/java' },
+          { text: 'Kit de Utilitários', link: '/kits/util' },
+          { text: 'Kit de Suporte ao desenvolvimento', link: '/kits/dev-support' },
+          { text: 'Kit de ISOs', link: '/kits/ISOs' },
         ]
       },
       {
