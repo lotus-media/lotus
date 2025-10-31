@@ -30,12 +30,15 @@ hero:
       link: /kits/util      
 
 features:
-  #  - link: ...
-  #    title: ...
-  #    details: ...
-  #  - link: ... 
-  #    title: ...
-  #    details: ... 
+  - link: /kits
+    title: "👨‍💻 SDKs e IDEs"
+    details: Pacotes de kits de editores de texto, IDEs e Kits para Desenvolvimento.
+  - link: /support-kits
+    title: "📱 Suporte"
+    details: Pacotes de kits de aplicativos, imagens de SOs e programas para suporte técnico.
+  - link: /kits/java
+    title: "☕ Java"
+    details: SDK de Java na versão 25 e na versão 21. IDE - IntelliJ Community.
 ---
 
 <a href="https://lts.app.br"><img src="/images/hero-banner.png" alt="Banner da Lotus Media, com fundo na cor rosê e escrito Sua visão, nosso Código junto da logo da Lotus." style="border-radius: 10px; margin-bottom: 2rem; width: 100%; object-fit: cover; margin-top: 4rem"></a>

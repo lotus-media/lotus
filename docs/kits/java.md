@@ -9,4 +9,4 @@
 |  JDK 21   |
 |  JDK 25   |
 
-<Button URL="#1" type="SDK" name="Java" />
+<Button URL="https://drive.google.com/uc?export=download&id=1xwxA8hgfcZpEbtr9HLEMK_Hr89JZPq39" type="SDK" name="Java" />

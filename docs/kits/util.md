@@ -31,4 +31,4 @@
 |        Windows ISO Downloader         |
 |            WinRAR x64 7.01            |
 
-<Button URL="#1" type="KIT" name="Utilitários" />
+<Button URL="https://drive.google.com/uc?export=download&id=1K6jqMnWEtOS83ruMgqr-XNKt4536IOlh" type="KIT" name="Utilitários" />

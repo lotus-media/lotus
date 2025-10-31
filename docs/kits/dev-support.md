@@ -16,4 +16,4 @@
 |      WebPKI Setup 2.12.6      |
 |          WSL 2.6.1.0          |
 
-<Button URL="#1" type="KIT" name="Suporte ao desenvolvimento" />
+<Button URL="https://drive.google.com/uc?export=download&id=18T_XGQfrj9R6zwReS39o5ahzVhXdmlZv" type="KIT" name="Suporte ao desenvolvimento" />

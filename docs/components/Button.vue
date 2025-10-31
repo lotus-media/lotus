@@ -3,8 +3,8 @@ import {h} from 'vue'
 </script>
 
 <template>
-  <button type="button" class="text-[13px] btn group w-full bg-gradient-to-t from-rose-600 to-rose-500 bg-[length:100%_100%] bg-[bottom] shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto p-3 rounded-md">
-    <a :href="getURL" rel="noopener noreferrer">
+  <button type="button" class="text-[13px] btn group w-full bg-gradient-to-t from-rose-600 to-rose-500 bg-[length:100%_100%] bg-[bottom] shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto rounded-md">
+    <a :href="getURL" target="_blank" rel="noopener noreferrer" class="p-3 block">
       <div class="relative inline-flex items-center flex-wrap">
         <span class="text-white">
           Baixar {{ getType }}
@@ -33,8 +33,8 @@ export default {
       return this.name || "";
     },
     getURL() {
-      // return this.URL;
-      return "";
+      return this.URL;
+      // return "";
     }
   }
 };
